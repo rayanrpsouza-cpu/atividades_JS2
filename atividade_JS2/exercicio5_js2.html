@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var num = parseInt(prompt("digite um numero! "));
+    var div = 0;
+
+    if(num > 0)
+    {
+        for(var i = 1; i <= num; i++)
+        {
+            if(num % i == 0)
+            {
+                div += 1;
+            }
+        }
+        if(div == 2)
+        {
+            alert("O numero digitado é primo! ");
+       }else{
+            alert("O numero digitado NÃO é primo! ");
+        }
+
+    }else{
+        alert("deste numero não é positivo, digite um que seja!")
+    }
+    </script>
+</body>
+</html>

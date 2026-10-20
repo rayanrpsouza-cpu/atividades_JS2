@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var n1 = parseInt(prompt("escreva um numero: "));
+        var n2 = parseInt(prompt("escreva segundo numero: "));
+        var n3 = parseInt(prompt("escreva terceiro numero: "));
+
+        if(n1 == n2 && n1 == n3 && n2 == n3)
+        {
+           alert("todos os numeros são iguais!");
+
+        }else{
+
+            if (n1 > n2 && n1 > n3)
+            {
+                alert("o " + n1 + " é maior que " + n2 + " e " + n3);
+            }else if(n2 > n1 && n2 > n3)
+            {
+                alert("o " + n2 + " é maior que " + n1 + " e " + n3);
+            }else if(n3 > n1 && n3 > n2)
+            {
+                alert("o " + n3 + " é maior que " + n2 + " e " + n2);
+            }
+
+            if (n1 == n2 )
+            {
+                alert("o " + n1 + " e " + n2 + " são iguais!");
+            }else if(n1 == n3)
+            {
+                alert("o " + n1 + " e " + n3 + " são iguais!");
+            }else if(n2 == n3)
+            {
+               alert("o " + n2 + " e " + n3 + " são iguais!");
+
+            }
+        }
+
+    </script>    
+</body>
+</html>
